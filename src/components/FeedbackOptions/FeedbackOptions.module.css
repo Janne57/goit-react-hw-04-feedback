@@ -1,0 +1,14 @@
+.btn__feedback {
+    padding: 10px;
+    border: 2px solid rgb(94, 92, 92);
+    border-radius: 15%;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.btn__common {
+    display: flex;
+    gap: 25px;
+    margin: 35px auto;
+}

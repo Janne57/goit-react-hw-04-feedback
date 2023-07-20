@@ -1,0 +1,12 @@
+.counter__stat {
+    margin-bottom: 25px;
+    font-size: 34px;
+    font-weight: 700;
+
+}
+
+.counter__controls {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
