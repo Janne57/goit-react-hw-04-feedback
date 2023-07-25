@@ -1,9 +1,6 @@
-import { Component } from 'react';
 import css from './/FeedbackOptions.module.css';
 
-class FeedbackOptions extends Component {
-  render() {
-    const { options, onLeaveFeedback } = this.props;
+function FeedbackOptions ({ options, onLeaveFeedback }){
 
     return (
       <div className={css.btn__common}>
@@ -14,6 +11,5 @@ class FeedbackOptions extends Component {
       </div>
     );
   }
-}
 
 export default FeedbackOptions;
